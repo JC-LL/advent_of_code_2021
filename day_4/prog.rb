@@ -66,8 +66,6 @@ def init_game
     @lines.shift
     @boards << Board.new(rows)
   end
-
-  pp @boards
   puts "number of boards : #{@boards.size}"
 end
 

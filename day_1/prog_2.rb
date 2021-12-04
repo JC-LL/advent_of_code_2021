@@ -1,8 +1,4 @@
-
-def hit_a_key
-  puts "-- hit a key --"
-  $stdin.gets
-end
+require_relative "../hit_a_key"
 
 data=IO.readlines("../day_1/input.txt").map(&:to_i)
 puts "read #{data.size} data"
