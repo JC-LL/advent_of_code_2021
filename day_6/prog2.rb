@@ -1,5 +1,5 @@
-# If coded naively, by enumerating the state space, the complexity grows exponentially
-# reaching 256 iterations is then impossible !
+# If coded naively, by enumerating the state space, the complexity grows exponentially.
+# Reaching 256 iterations is then impossible !
 # To succeed :  DO NOT enumerate the state space !
 # Instead :
 # 1) build a hash (x -> #x) with x in 0..8
