@@ -74,6 +74,8 @@ def least_common_bit_at idx,lines
   ones=bits.count('1')
   zeros=bits.count('0')
   return '0' if ones==zeros
+  #puts i
+  #hit_a_key
   ones > zeros ? '0' : '1'
 end
 
