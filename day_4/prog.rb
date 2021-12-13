@@ -1,7 +1,3 @@
-def hit_a_key
-  $stdin.gets
-end
-
 class Board
   def initialize rows
     @rows=rows
@@ -50,7 +46,6 @@ class Board
     score
   end
 end
-
 
 def init_game
   @lines=IO.readlines("input.txt")
@@ -106,13 +101,10 @@ def play_game2
   end
 end
 
-
 puts "first part".center(40,'=')
-hit_a_key
 init_game
 play_game
 
 puts "second part".center(40,'=')
-hit_a_key
 init_game
 play_game2
