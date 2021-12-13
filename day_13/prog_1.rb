@@ -1,7 +1,4 @@
-require_relative "../hit_a_key"
-
 class Page
-
   attr_accessor :mat
 
   def initialize mat=[]
